@@ -11,8 +11,8 @@
   <!-- -----------👇 Only pay attention below this line 👇----------- -->
 
   <form class="form">
-    <div class="form__left">
-      <div class="form__total thin center">$0</div>
+    <div class="form__left payment">
+      <div class="form__total thin center price">$0</div>
       <div class="form__plan">
         <label class="form__plan-option">
           <input type="radio" name="plan" value="Annually" required>
@@ -32,7 +32,7 @@
         <button class="button button--small caps">Apply Code</button>
       </div>
     </div>
-    <div class="form__right">
+    <div class="form__right payment">
       <svg class="form__logo" aria-hidden="true" role="presentation">
         <use href="#icon-logo" />
       </svg>
@@ -59,7 +59,7 @@
         <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" alt="PayPal">
       </a>
       <button type="submit" name="submit" class="form__pay button" disabled>
-        Pay <span>$0</span> Now
+        Pay <span class="price">$0</span> Now
       </button>
       <span class="form__terms center">By proceeding, you agree to our
         <a href="#">terms and conditions.</a>
